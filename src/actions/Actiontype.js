@@ -1,0 +1,11 @@
+const SET_WINS = "SET_WINS"
+const SET_LOSES = "SET_LOSES"
+const INIT_DATA_FROM_SERVER = "SET_PROFIT"
+
+
+
+export default {  
+  SET_WINS,
+  SET_LOSES,
+  INIT_DATA_FROM_SERVER,
+};

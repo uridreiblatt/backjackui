@@ -1,0 +1,47 @@
+.BlackJackTable{
+    background-color: rgb(4, 90, 4);
+    border-radius: 2vh;
+    border-style: solid;
+    height: 80vh;
+    margin: 3Vh;
+}
+
+.players-Display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card-grid{
+      margin: 40px 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+      grid-gap: 5px;
+      align-self: flex-end;
+      
+  }
+  .single-Palyer
+  {
+      width: 50vh;
+      background-color: green;
+      border-radius: 10px;
+  }
+
+  .box {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    margin-right: 20px;
+  }
+  .index {
+    background: none repeat scroll 0 0 #0063ff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    /* position: absolute; */
+    right: -10px;
+    top: -10px;
+  }

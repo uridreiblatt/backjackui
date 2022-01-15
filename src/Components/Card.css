@@ -1,0 +1,35 @@
+.card{
+    position: relative;
+    height: 90px;
+    width: 60px;
+    background-color: grey;
+    
+}
+
+.card svg{
+    height: 90px;
+    width: 60px;
+    display:block;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.card .front{
+    transform: rotateY(0deg);
+    transition: all ease-in 0.4s;
+    position: absolute;
+}
+.card .back{
+    transform: rotateY(90deg);
+    transition: all in 0.4s;
+    position: absolute;
+}
+
+.flipped .front {
+    transform: rotateY(90deg);
+    transition-delay: 0.4s;
+} 
+.flipped .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.4s;
+    transform: rotateY(0deg);
+} 
